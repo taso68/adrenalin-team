@@ -1,0 +1,11 @@
+:root {
+    --bcg-color-main: 255, 255, 255;
+    --bcg-color-secondary: 51, 51, 51;
+    --main-brown: 51, 51, 51;
+    --text-color-highlighted: 34, 34, 34;
+    --main-orange: 247, 200, 58;
+    --light-brown: 35, 35, 34;
+    --dirty-white: #d9d9d9;
+    --page-width: 1200px;
+    --side-padding: 1rem;
+}

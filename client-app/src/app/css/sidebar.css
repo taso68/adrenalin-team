@@ -1,0 +1,29 @@
+.sidebar {
+    position: fixed;
+    background: rgb(51, 51, 51);
+    transform: translateX(100%);
+    transition: transform .5s ease-in-out;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.show-sidebar {
+    transform: translateX(0%);
+}
+
+.active-link-sidebar {
+    font-size: 2rem;
+    margin: 0 1rem;
+    border-bottom: 3px solid transparent;
+    font-weight: bold;
+    white-space: nowrap;
+}
+
+.link-sidebar {
+    font-size: 2rem;
+    margin: 0 1rem;
+    border-bottom: 3px solid rgb(var(--main-orange));
+    font-weight: bold;
+    white-space: nowrap;
+}

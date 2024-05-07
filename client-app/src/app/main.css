@@ -1,0 +1,99 @@
+@import "./css/breakpoints.css";
+@import "./css/header.css";
+@import "./css/global-vars.css";
+@import "./css/sidebar.css";
+
+@import 'react-image-gallery/styles/css/image-gallery.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: rgb(var(--bcg-color-main));
+    color: rgb(var(--main-brown));
+    width: 100vw;
+    margin: 0 auto;
+    overflow-x: hidden;
+}
+
+.underline-orange {
+    border-bottom: 3px solid rgb(var(--main-orange));
+}
+
+.content {
+    max-width: var(--page-width);
+}
+
+section {
+    width: 100%;
+    margin: 0 auto;
+    max-width: var(--page-width);
+    padding: 1rem var(--side-padding);
+}
+
+.btn-border {
+    border: 2px solid rgb(var(--main-orange));
+    padding: .3rem 2rem;
+    font-weight: bold;
+    text-align: center;
+    cursor: pointer;
+}
+
+.btn-filled {
+    padding: .3rem 2rem;
+    font-weight: bold;
+    color: #ffff;
+    text-align: center;
+    cursor: pointer;
+}
+
+.brown-l-bg {
+    background: rgb(51, 51, 51);
+    background: linear-gradient(341deg, rgba(51, 51, 51, 1) 0%, rgba(33, 35, 34, 1) 63%);
+}
+
+.orange-box-shadow-hover:hover {
+    box-shadow: 10px 10px 20px 0px rgba(247, 200, 58, 0.47);
+    -webkit-box-shadow: 10px 10px 20px 0px rgba(247, 200, 58, 0.47);
+    -moz-box-shadow: 10px 10px 20px 0px rgba(247, 200, 58, 0.47);
+    transition: all .6s ease-in-out;
+}
+
+input, textarea {
+    background: rgb(var(--light-brown));
+    padding: 2px 10px;
+    border-radius: 10px;
+    font-weight: bold;
+}
+
+.all-words-new-line {
+    word-spacing: 100vw;
+}
+
+textarea {
+    resize: none;
+    height: 100px;
+}
+
+input[type=text]:focus, input[type=email]:focus, input[type=file]:focus, textarea:focus {
+    outline: 3px solid rgb(var(--main-orange));
+}
+
+
+input[type=file]::file-selector-button {
+    background: rgb(var(--main-orange));
+    border-radius: 7px;
+    border: none;
+    margin: 5px 15px 5px 0;
+}

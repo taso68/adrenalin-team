@@ -1,0 +1,16 @@
+#home-s-1 {
+    background: rgb(51, 51, 51);
+    background: linear-gradient(341deg, rgba(51, 51, 51, 1) 0%, rgba(33, 35, 34, 1) 63%);
+}
+
+#faucet {
+    position: absolute;
+    top: 20%;
+    right: 0;
+}
+
+@media only screen and (max-width: 1100px) {
+    #faucet {
+        display: none;
+    }
+}
