@@ -12,9 +12,9 @@ import Head from "next/head";
 const font = Raleway({subsets: ["latin"]});
 
 export const metadata: Metadata = {
-    title: "Matić Kop",
-    description: "Nudimo usluge iskopa za niskogradnju i vodovodne instalacije. Specijalizirani smo za iskope temelja, kanalizacije, drenažnih sistema, kao i za položaj vodovodnih cijevi. Sa stručnim timom i modernom opremom, pružamo kvalitetne i pouzdane usluge u građevinskoj industriji. Kontaktirajte nas za vaše projekte i potrebe.",
-    keywords: 'vodoinstalater, Beograd, hitno, vodovod, kanalizacija, popravak, montaža, profesionalno, pouzdano, poplava, zagušenja, adaptacije, kupatilo, voda, Iskopi niskogradnje, vodovodni radovi, temelji građevinskih objekata, kanalizacijski sistemi, drenažni sistemi i položaj vodovodnih cijevi.'
+    title: "Adrenalin team",
+    description: "At Adrenalin Team, we are passionate about crafting exceptional mobile experiences. With a team of skilled developers, designers, and strategists, we specialize in creating innovative iOS and Android applications tailored to meet the unique needs of our clients. Our commitment to excellence drives us to stay at the forefront of technology, ensuring that every app we build is not only user-friendly but also robust and scalable. Whether you're a startup looking to disrupt the market or a seasoned enterprise seeking digital transformation, we're here to turn your vision into reality.\n",
+    keywords: 'At Adrenalin Team, we are passionate about crafting exceptional mobile experiences. With a team of skilled developers, designers, and strategists, we specialize in creating innovative iOS and Android applications tailored to meet the unique needs of our clients. Our commitment to excellence drives us to stay at the forefront of technology, ensuring that every app we build is not only user-friendly but also robust and scalable. Whether you\'re a startup looking to disrupt the market or a seasoned enterprise seeking digital transformation, we\'re here to turn your vision into reality.\n'
 };
 
 interface RootLayoutProps {

@@ -42,17 +42,10 @@ const Header = () => {
                 <div className='nav-wrap flex flex-row items-center'>
                     <nav className='desktop flex flex-row items-center justify-between text-xl'>
                         <Link href='/' className={isActive('/') ? 'active-header-link' : 'header-link'}>
-                            Početna
+                            Home
                         </Link>
-                        <Link href='#' className={isActive('/o-nama') ? 'active-header-link' : 'header-link'}>
-                            Usluge
-                        </Link>
-                        <Link href='#'
-                              className={isActive('/projekti') ? 'active-header-link' : 'header-link'}>
-                            Galerija
-                        </Link>
-                        <Link href='#' className={isActive('/usluge') ? 'active-header-link' : 'header-link'}>
-                            Cenovik
+                        <Link href='./contact' className={isActive('/contact') ? 'active-header-link' : 'header-link'}>
+                            Contact
                         </Link>
                     </nav>
                     <div className='h-full left flex flex-col text-xm trapezoid pl-6 text-bolder desktop'>

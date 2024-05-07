@@ -12,18 +12,11 @@ export interface companyDataInterface {
 }
 
 export const companyData: companyDataInterface = {
-    name: 'Matić Kop',
+    name: 'Adrenalin Team',
     slogan: '',
-    openHours: '00-24h',
-    email: 'matickop1995@gmail.com',
-    social: [
-        {
-            link: 'https://www.instagram.com/matic_kopp/',
-            imagePath: '/icons/social/ig.svg',
-            name: 'Instagram',
-            isShowing: true
-        },
-    ]
+    openHours: '',
+    email: 'info@oblio.network',
+    social: []
 }
 
 export interface phoneNumberInterface {
@@ -34,8 +27,8 @@ export interface phoneNumberInterface {
 
 export const phoneNumbers: phoneNumberInterface[] = [
     {
-        phone: '069676844',
-        name: 'Nikola',
-        isHighlighted: true,
+        phone: '',
+        name: '',
+        isHighlighted: false,
     },
 ]

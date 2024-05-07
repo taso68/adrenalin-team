@@ -38,22 +38,12 @@ const Sidebar = () => {
             <ul className='text font-bold text-2xl text-center'>
                 <li className='pt-5' onClick={toggleSidebar}>
                     <Link href='/'
-                          className={isActive('/') ? 'link-sidebar' : 'active-link-sidebar'}>Početna</Link>
+                          className={isActive('/') ? 'link-sidebar' : 'active-link-sidebar'}>Home</Link>
                 </li>
                 <li className='pt-5'>
-                    <Link href='#'
-                          className={isActive('/o-nama') ? 'link-sidebar' : 'active-link-sidebar'}
-                          onClick={toggleSidebar}>Usluge</Link>
-                </li>
-                <li className='pt-5'>
-                    <Link href='#'
-                          className={isActive('/projekti') ? 'link-sidebar' : 'active-link-sidebar'}
-                          onClick={toggleSidebar}>Galerija</Link>
-                </li>
-                <li className='pt-5'>
-                    <Link href='#'
-                          className={isActive('/usluge') ? 'link-sidebar' : 'active-link-sidebar'}
-                          onClick={toggleSidebar}>Cenovnik</Link>
+                    <Link href='./contact'
+                          className={isActive('/contact') ? 'link-sidebar' : 'active-link-sidebar'}
+                          onClick={toggleSidebar}>Contact</Link>
                 </li>
             </ul>
             <div className='text-center text-2xl mt-10'>
